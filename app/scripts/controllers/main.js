@@ -7,4 +7,10 @@ angular.module('requirejsApp')
       'AngularJS',
       'Karma'
     ];
+
+    $scope.test = function(){
+    	return "This is a test!";
+    };
+
+    //End Controller
   });
